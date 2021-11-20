@@ -1,0 +1,46 @@
+.searchContent {
+  margin: 15px 0px;
+}
+.searchContent .news {
+  color: #188fff;
+  font-weight: 700;
+  font-size: 12px;
+}
+.searchContent .news::after {
+  content: ".";
+  margin: 0 5px;
+  color: #828a93;
+  position: relative;
+  top: -3px;
+}
+
+.searchContent .newsFrom {
+  color: #828a93;
+  font-weight: 500;
+  margin-right: 10px;
+  font-size: 12px;
+}
+.searchContent h2 {
+  font-weight: 500;
+  font-size: 18px;
+}
+.searchContent h2 a {
+  color: #232a31;
+}
+.searchContent h2 a:hover {
+  color: #006400;
+}
+.searchContent p {
+  color: #828a93;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 550px) {
+  .searchContent h2 {
+    font-size: 16px;
+  }
+  .searchContent p {
+    font-size: 12px;
+  }
+}

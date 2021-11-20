@@ -1,0 +1,23 @@
+.navbar-menu ul {
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.navbar-menu {
+  margin-left: 5px;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 550px) {
+  .navbar-menu ul {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .navbar-menu a {
+    display: none;
+  }
+}

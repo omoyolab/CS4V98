@@ -1,0 +1,13 @@
+.terms-policy {
+  color: #545454;
+  line-height: 1.5;
+  font-size: 0.9rem;
+  text-align: center;
+  padding-top: 10px;
+}
+.terms-policy .link:hover {
+  text-decoration: underline;
+}
+.terms-policy .link {
+  color: #545454;
+}

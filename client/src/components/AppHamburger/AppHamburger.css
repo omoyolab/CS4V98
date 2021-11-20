@@ -1,0 +1,76 @@
+.mobile-container {
+  max-width: 920px;
+  margin: auto;
+  color: white;
+  border-radius: 10px;
+  display: none;
+}
+
+.mobile-container img {
+  max-width: 80px;
+  margin-right: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  position: relative;
+  padding-top: 5px;
+}
+
+.topnav #myLinks {
+  display: none;
+  background-color: #fff;
+  padding: 0 10px;
+}
+
+.topnav a {
+  color: #232a31;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  font-size: 18px;
+}
+
+.active {
+  background-color: #fff;
+  color: white;
+}
+
+@media only screen and (max-width: 750px) {
+  .mobile-container {
+    display: block;
+  }
+
+  .topnav .menu-item:not(:last) {
+    margin-bottom: 10px;
+  }
+  .topnav .menu-item a {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .mobile-container img {
+    width: 50px;
+  }
+
+  .topnav a {
+    padding: 4px;
+  }
+
+  .topnav {
+    padding: 0;
+  }
+
+  .topnav a.icon {
+    right: 0;
+    top: 5px;
+  }
+}

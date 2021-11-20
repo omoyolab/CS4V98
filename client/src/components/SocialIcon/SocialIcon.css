@@ -1,0 +1,17 @@
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-icons li {
+  padding: 0px 15px;
+  font-size: 1.6rem;
+}
+
+.social-icons i {
+  color: #545454;
+}
+
+.social-icons li a:hover {
+  color: #006400;
+}

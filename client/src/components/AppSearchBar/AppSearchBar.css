@@ -1,0 +1,71 @@
+.p-inputgroup {
+  margin-top: 17px;
+  height: 50px !important;
+  position: relative;
+}
+
+.p-inputtext {
+  border-radius: 25px !important;
+  padding-left: 20px !important;
+  padding-right: 70px !important;
+}
+
+.p-inputtext:enabled:focus {
+  box-shadow: none !important;
+}
+
+.p-button.p-button-success {
+  position: absolute;
+  top: 7px;
+  right: 15px;
+  background: transparent;
+  border: none;
+  z-index: 1;
+}
+
+.p-button.p-button-success:hover {
+  background: transparent !important;
+}
+
+.fa-search {
+  color: #006400;
+  padding: 0;
+}
+
+@media only screen and (max-width: 550px) {
+  .p-inputgroup {
+    margin: 0px !important;
+    height: 35px !important;
+  }
+  .p-inputgroup .p-inputtext,
+  .p-fluid .p-inputgroup .p-inputtext {
+    font-size: 14px !important;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .p-inputgroup {
+    height: 30px !important;
+    font-size: 10px !important;
+    margin: 0px;
+  }
+
+  .p-button.p-button-success {
+    top: -2px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .p-inputgroup {
+    height: 25px !important;
+  }
+
+  .p-button.p-button-success {
+    padding: 10px !important;
+  }
+
+  .p-inputgroup .p-inputtext,
+  .p-fluid .p-inputgroup .p-inputtext {
+    font-size: 10px !important;
+  }
+}

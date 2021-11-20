@@ -1,0 +1,31 @@
+/* Livescore Widget */
+.livescoreSection {
+  border: 1px solid black;
+  padding: 3%;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.livescoreSection h3 {
+  text-align: center;
+  font-weight: 500;
+  background-color: #006400;
+  color: #fff;
+}
+
+.resultsSection {
+  padding: 3%;
+}
+
+.competition {
+  text-align: center;
+  font-size: 13px;
+  color: #188fff;
+  margin-top: 10px;
+}
+
+.matches {
+  font-size: 12px;
+  font-weight: 500;
+}
